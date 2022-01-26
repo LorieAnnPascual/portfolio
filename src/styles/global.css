@@ -5,7 +5,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Montserrat';
-    color: #FFAA33;
+    color: #FFAA33; 
 }
 html, body {
     min-height: 100%;
@@ -40,16 +40,14 @@ p {
     gap: 20px;
 }
 
-.Navbar Link {
+.links .nav-item {
     display: inline-block;
     margin-left: 20px;
     font-weight: 400;
     padding-bottom: 0px;
     border-bottom: 3px solid transparent;
-}
-
-Link:hover {
-    border-color: #330000;
+    color: #FFAA33;
+    text-decoration: none;
 }
 
 footer p {
@@ -65,4 +63,19 @@ footer .footer-links {
     margin-top: 30px;
     gap: 20px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .Navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Navbar .links {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0px;
+    }
 }

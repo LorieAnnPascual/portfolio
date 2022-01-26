@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 
 const Layout = ({children}) => {
   return (
-      <div className="layout">
+      <div className="container-sm layout">
           <Navbar/>
           <div className="content">
               { children }
