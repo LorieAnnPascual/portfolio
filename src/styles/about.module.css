@@ -1,0 +1,88 @@
+.about .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;  
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.aboutText {
+    text-align: justify;
+}
+
+.aboutText p {
+    font-size: 20px;
+}
+
+.aboutFigure {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.myPic {
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+.devTools {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+}
+
+.logo figcaption {
+    text-align: center;
+}
+
+.toTop {
+    display: flex;
+    justify-content: end;
+}
+
+.aboutBtn {
+    display: inline-block;
+    background-color: #330000;
+    color: #FFAA33; 
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.aboutBtn:hover {
+    background-color: #FFAA33;
+    color: #330000;
+}
+
+@media screen and (max-width: 768px) {
+    .about .content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aboutText p {
+        font-size: 18px;
+    }
+
+    .myPic {
+        width: 360px;
+        height: 320px;
+    }
+}

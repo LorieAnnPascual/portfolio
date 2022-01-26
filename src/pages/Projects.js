@@ -109,6 +109,10 @@ const Projects = () => {
             </Link>
           </Card>
         </div>
+
+        <div className={styles.toTop}>
+          <Link className={styles.projBtn} to="/Projects">Back to Top</Link>
+        </div>
       </Layout>
   );
 };
