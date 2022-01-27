@@ -12,7 +12,9 @@
 
 .aboutText p {
     font-size: 20px;
+    margin-top: 20px;
 }
+
 
 .aboutFigure {
     display: flex;
@@ -84,5 +86,9 @@
     .myPic {
         width: 360px;
         height: 320px;
+    }
+
+    .aboutTitle {
+        text-align: center;
     }
 }

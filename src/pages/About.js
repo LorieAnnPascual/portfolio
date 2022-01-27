@@ -12,7 +12,7 @@ const About = () => {
         <div className={styles.about}>
           <div className={styles.content}>
             <div className={styles.aboutText}>
-              <h2>About The Developer</h2>
+              <h2 className={styles.aboutTitle}>About The Developer</h2>
               <p>
                 I am Lorie Ann Pascual, a musician and now a web developer spcializing 
                 in front-end development.
@@ -44,8 +44,8 @@ const About = () => {
               </p>
             </div>
             <div className={styles.skills}>
-              <h2>Development Tools</h2>
-              <p>These are the following tools I am knowledgeable/familiar with:</p>
+              <h2 className={styles.aboutTitle}>Development Tools</h2>
+              <p className={styles.aboutTitle}>These are the following tools I am knowledgeable/familiar with:</p>
               <div className={styles.devTools}>
                 <figure className={styles.logo}>
                   <img src="/html.png" alt="html-logo" />
