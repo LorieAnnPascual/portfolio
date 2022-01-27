@@ -3,8 +3,16 @@ import Layout from '../components/Layout';
 import * as styles from '../styles/home.module.css';
 import { Link } from 'gatsby';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { saveAs } from 'file-saver';
 
 export default function Home() {
+  const saveFile = () => {
+    saveAs(
+      "https://drive.google.com/file/d/1zPTXjuJx0rpShEDF_JQopIBsCyPPLZ8v/view?usp=sharing", 
+      "LorieAnnPascual-FrontEndDevCV.pdf"
+    );
+  }
+
   return (
     <div className={styles.home}>
       <Layout>
@@ -15,10 +23,10 @@ export default function Home() {
             <p>Web Developer based in Rizal</p>
             <div className={styles.homeBtn}>
             <Link className={styles.btn} to="/Projects">My Portfolio Projects</Link>
-            <Link className={styles.btn} to="https://drive.google.com/file/d/1zPTXjuJx0rpShEDF_JQopIBsCyPPLZ8v/view?usp=sharing" 
-                  download 
+            <Link className={styles.btn} to="/"
                   target="_blank" 
                   type="button"
+                  onClick={saveFile}
                   >Download my CV
               </Link>
             </div>
