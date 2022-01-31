@@ -18,7 +18,7 @@ const Projects = () => {
         <div className={styles.projects}>
          
           <Card sx={{ maxWidth: 345 }}>
-          <Link to="/https://lorieannpascual.github.io/lorie_online-magazine.github.io/" target="_blank" className={styles.cardLink}>
+          <Link to="https://lorieannpascual.github.io/lorie_online-magazine.github.io/" target="_blank" className={styles.cardLink}>
             <CardActionArea>
               <CardMedia
                 component="img"
