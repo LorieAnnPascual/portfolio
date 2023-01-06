@@ -4,8 +4,10 @@ import * as styles from '../styles/home.module.css';
 import { Link } from 'gatsby';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { saveAs } from 'file-saver';
+import Head from '../components/head.js';
 
 export default function Home() {
+
   const saveFile = () => {
     saveAs(
       "https://drive.google.com/file/d/1sN3HSUKEefJ9dBQgciKEt602Zr_oO0hf/view?usp=sharing", 
@@ -13,14 +15,16 @@ export default function Home() {
     );
   }
 
+
   return (
     <div className={styles.home}>
+       <Head title="Lorie Ann Pascual"/>
       <Layout>
         <section className={styles.header}>
           <div>
             <h2>Design</h2>
-            <h3>Develop & Deploy</h3>
-            <p>Web Developer based in Rizal</p>
+            <h2 className={styles.develop}>Develop & Deploy</h2>
+            <h1>Web Developer based in Rizal</h1>
             <div className={styles.homeBtn}>
             <Link className={styles.btn} to="/Projects">My Portfolio Projects</Link>
             <Link className={styles.btn} to="/"
@@ -39,3 +43,4 @@ export default function Home() {
     </div>
   );
 }
+

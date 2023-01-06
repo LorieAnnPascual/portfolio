@@ -13,9 +13,14 @@
     font-size: 4em;
 }
 
-.header h3 {
-    font-size: 3em;
+.header .develop {
+    font-size: 4em;
     margin-bottom: 20px;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .homeBtn {
@@ -45,18 +50,18 @@
         flex-direction: column-reverse;
     }
 
-    .header h2 {
+    .header h2:first-child {
         font-size: 4em;
         text-align: center;
     }
     
-    .header h3 {
-        font-size: 3em;
+    .header .develop {
+        font-size: 4em;
         margin-bottom: 20px;
         text-align: center;
     }
 
-    .header p {
+    .header h1 {
         text-align: center;
     }
 
@@ -69,7 +74,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
         text-align: center;
     }
 }
