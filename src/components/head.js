@@ -5,9 +5,9 @@ const Head = ({ title}) => {
   return (
     <>
       <Helmet
-        defaultTitle="Lorie Ann Pascual | My Website Portfolio"
+        defaultTitle="My Updated Portfolio | Lorie Ann Pascual Portfolio"
         title={title}
-        titleTemplate="%s | My Website Portfolio"
+        titleTemplate="%s | Lorie Ann Pascual Portfolio"
       />
     </>
   )

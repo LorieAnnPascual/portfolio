@@ -2,10 +2,12 @@ import React from 'react';
 import Layout from '../components/Layout';
 import * as styles from '../styles/about.module.css';
 import { Link } from 'gatsby';
+import Head from '../components/head.js';
 
 const About = () => {
   return (
       <Layout>
+        <Head title="About Me"/>
         <figure className={styles.aboutFigure}>
           <img src="/lorieann.jpg" alt="labp" loading='lazy' className={styles.myPic}/>
         </figure>

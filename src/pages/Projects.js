@@ -7,10 +7,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { Link } from 'gatsby';
+import Head from '../components/head.js';
 
 const Projects = () => {
   return (
+    
       <Layout>
+        <Head title="Projects"/>
         <div className={styles.portfolio}>
           <h2>Portfolio</h2>
           <h3>Projects & Websites I've created</h3>

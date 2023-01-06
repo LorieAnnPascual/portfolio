@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div className={styles.home}>
-       <Head title="Lorie Ann Pascual"/>
+       <Head title="Home"/>
       <Layout>
         <section className={styles.header}>
           <div>
