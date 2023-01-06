@@ -7,7 +7,7 @@ const About = () => {
   return (
       <Layout>
         <figure className={styles.aboutFigure}>
-          <img src="/lorieann.jpg" alt="labp" className={styles.myPic}/>
+          <img src="/lorieann.jpg" alt="labp" loading='lazy' className={styles.myPic}/>
         </figure>
         <div className={styles.about}>
           <div className={styles.content}>
@@ -18,29 +18,13 @@ const About = () => {
                 in front-end development.
               </p><br/>
               <p>
-                Aside from playing musical instruments, I've been fascinated with things related 
-                to technology. When our devices at home gets broken, I go to Google or Youtube 
-                and learn how to fix them on my own. From then I became the family's 'I.T.' even to 
-                relatives and some friends. Sometimes I get comments saying that I should have pursued 
-                an I.T. course instead of music. Although  I have that kind of 'gift' my focus at that time 
-                was my music career. 
+              I have a passion for both music and technology. Whenever something in my home breaks, I enjoy researching and figuring out how to fix it myself. This curiosity has even earned me a reputation as the go-to "I.T. guy" among my family and friends. While I do have a natural aptitude for technology, I ultimately decided to pursue a career in music. However, I still enjoy using my technical skills to help others and occasionally get comments suggesting that I should have pursued a formal education in I.T.
               </p><br/>
               <p>
-                Then pandemic came. Rich and poor, everyone's affected including us from the creative and performing 
-                arts industry. Despite the predicament we still face, I was given a time to unwind, ponder 
-                and assess what and how I did during the past years. It felt like I had no growth and 
-                stayed in my comfort zone for a long time. After months of self-assessment and praying, I came 
-                across a website for career assessment. To make the story short, I took the assessment and the results 
-                I got were all related to I.T. field. That's when I realized that maybe it's time to put my music career 
-                on the side and take a step forward in entering the world of technology. 
+              The pandemic has had an impact on everyone, including those in the creative and performing arts industry. During this time, I had the opportunity to reflect on my career and realize that I had been stagnant and stuck in my comfort zone for too long. I sought out a career assessment website and was surprised to find that the results all pointed towards a career in the I.T. field. This realization made me consider taking a break from my music career and exploring the world of technology.
               </p><br/>
               <p>
-                'Why Web Development out of all the I.T. field?' There's this motivational quote that says 
-                "Start with what you have.". Since I do have the resources I need (laptop, cellphone, internet) 
-                to learn one of the in demand jobs, I did not hesitate to start. It is also a good career for 
-                an introverted person like me and above all, this is where I get the growth that I wanted. In coding 
-                websites there's a different kind of satisfaction when you make your code work after hours of learning and figuring 
-                things out it wasn't working in the beginning. It's challenging yet fulfilling. 
+              "Why did I choose web development over other fields in I.T.? I was motivated by the quote 'Start with what you have.' I had the resources I needed (such as a laptop, phone, and internet) to start learning a high-demand skill, and web development seemed like the perfect fit for someone like me who is introverted. It also offered the growth and fulfillment that I was looking for. There's a sense of satisfaction that comes with solving coding problems and seeing your code come to life after putting in the time and effort to learn and troubleshoot. Web development is challenging, but it's also very rewarding."
               </p>
             </div>
             <div className={styles.skills}>
@@ -135,6 +119,13 @@ const About = () => {
                   <img src="/visual-studio.png" alt="vscode-logo" />
                   <figcaption>
                     VS CODE
+                  </figcaption>
+                </figure>
+
+                <figure className={styles.logo}>
+                  <img src="/icons8-wordpress.svg" alt="wordpress-logo" />
+                  <figcaption>
+                    WORDPRESS
                   </figcaption>
                 </figure>
               </div>

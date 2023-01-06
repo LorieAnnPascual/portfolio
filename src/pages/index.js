@@ -8,7 +8,7 @@ import { saveAs } from 'file-saver';
 export default function Home() {
   const saveFile = () => {
     saveAs(
-      "https://drive.google.com/file/d/1zPTXjuJx0rpShEDF_JQopIBsCyPPLZ8v/view?usp=sharing", 
+      "https://drive.google.com/file/d/1sN3HSUKEefJ9dBQgciKEt602Zr_oO0hf/view?usp=sharing", 
       "LorieAnnPascual-FrontEndDevCV.pdf"
     );
   }
